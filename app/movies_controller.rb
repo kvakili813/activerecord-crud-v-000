@@ -93,11 +93,3 @@ def can_destroy_all_items_at_once
   end
   Movie.all.each {|m| m.destroy}
 end
-
-
-
-
-
-
-
-
